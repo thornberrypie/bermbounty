@@ -1,17 +1,24 @@
 {
+  "name": "BermBounty",
+  "version": "0.0.1",
+  "private": true,
   "scripts": {
-    "start": "react-native start",
-    "android": "react-native run-android",
-    "ios": "react-native run-ios"
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
   },
   "dependencies": {
-    "react": "16.5.0",
+    "react": "16.6.3",
     "react-native": "*",
     "react-native-maps": "^0.23.0"
   },
   "devDependencies": {
-    "@babel/runtime": "^7.3.1",
-    "babel-preset-expo": "^5.0.0"
+    "babel-core": "7.0.0-bridge.0",
+    "babel-jest": "24.1.0",
+    "jest": "24.1.0",
+    "metro-react-native-babel-preset": "0.51.1",
+    "react-test-renderer": "16.6.3"
   },
-  "private": true
+  "jest": {
+    "preset": "react-native"
+  }
 }
