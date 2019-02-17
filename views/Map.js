@@ -1,10 +1,12 @@
 import React from 'react';
-//import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View } from 'react-native';
 import { MapView } from 'react-native-maps';
 
 export default class Map extends React.Component {
   render() {
     return (
+      <Text>Map View</Text>
+      /*
       <MapView
         style={{ flex: 1 }}
         initialRegion={{
@@ -14,6 +16,7 @@ export default class Map extends React.Component {
           longitudeDelta: 0.0421,
         }}
       />
+      */
     );
   }
 }
