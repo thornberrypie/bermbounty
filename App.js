@@ -9,8 +9,8 @@
 
 import React, {Component} from 'react';
 import {Platform, StyleSheet, Text, View} from 'react-native';
-import Home from './views/Home';
-import Map from './views/Map';
+import Home from './app/views/Home';
+import Map from './app/views/Map';
 
 const instructions = Platform.select({
   ios: 'Press Cmd+R to reload,\n' + 'Cmd+D or shake for dev menu',
