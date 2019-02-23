@@ -9,6 +9,7 @@
 
 import React, {Component} from 'react';
 import {Platform, StyleSheet, Text, View} from 'react-native';
+import AppNavigator from './app/modules/AppNavigator';
 import Home from './app/views/Home';
 import Map from './app/views/Map';
 
@@ -23,7 +24,7 @@ type Props = {};
 export default class App extends Component<Props> {
   render() {
     return (
-      <Home/>
+      <AppNavigator/>
     );
   }
 }
