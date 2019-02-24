@@ -10,18 +10,8 @@ import {
 } from 'react-native'
 
 export default class Home extends Component {
-  constructor(props) {
-    super(props)
-    this.state = {
-      homeScreenShowing: true
-    }
-  }
-
   _startApp() {
-    //Alert.alert('You tapped the button!')
-    this.setState({
-      homeScreenShowing: false
-    })
+    this.props.navigation.navigate('Map')
   }
 
   render() {
